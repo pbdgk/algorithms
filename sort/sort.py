@@ -1,6 +1,6 @@
 class Sort():
 
-    _debug = True
+    _debug = False
 
     @property
     def debug(self):
@@ -37,7 +37,7 @@ class Sort():
         return items
 
     def _sort(items):
-        raise ValueError("""
+        raise NotImplementedError("""
             You have to override this method in subclass.
             Don't create objects from this class.
             """)
