@@ -20,3 +20,4 @@ if __name__ == '__main__':
     my_items = [random.random() for i in range(30)]
     sorter = SelectionSort()
     sorter.sort(my_items)
+    print('working')

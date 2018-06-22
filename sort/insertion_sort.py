@@ -19,3 +19,4 @@ if __name__ == '__main__':
     my_items = [random.random() for i in range(30)]
     sorter = InsertionSort()
     sorter.sort(my_items)
+    print('working')
